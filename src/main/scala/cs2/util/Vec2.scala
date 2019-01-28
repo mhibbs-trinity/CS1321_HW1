@@ -1,6 +1,8 @@
 package cs2.util
 
 class Vec2 (var x:Double, var y:Double) {
+	/* UNCOMMENT THE CODE BELOW AND COMPLETE THE METHODS
+
 	//Default constructor creates a Vec2 of zeroes
   def this()
 
@@ -38,4 +40,5 @@ class Vec2 (var x:Double, var y:Double) {
 
 	def angleBetween(other:Vec2):Double
 	def <>(other:Vec2):Double
+	*/
 }
