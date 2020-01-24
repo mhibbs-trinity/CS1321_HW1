@@ -1,6 +1,8 @@
 name := "CS1321_HW1"
 version := "1.0"
-scalaVersion := "2.12.8"
+scalaVersion := "2.12.10"
+run / fork := true
+run / connectInput := true
 
 libraryDependencies ++= Seq(
 	"org.scalafx" %% "scalafx" % "8.0.144-R12",

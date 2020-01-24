@@ -4,12 +4,12 @@ class Vec2 (var x:Double, var y:Double) {
 	/* UNCOMMENT THE CODE BELOW AND COMPLETE THE METHODS
 
 	//Default constructor creates a Vec2 of zeroes
-  def this()
+	def this()
 
-  //Copy constructor create a "deep" copy of the input object
-  def this(toCopy:Vec2)
+	//Copy constructor create a "deep" copy of the input object
+	def this(toCopy:Vec2)
 
-  //Provided toString method simplifies printing, e.g. println(vec.toString) OR println(vec)
+	//Provided toString method simplifies printing, e.g. println(vec.toString) OR println(vec)
 	override def toString():String = "("+x+","+y+")"
 
 	//Methods for addition and subtraction of vectors
@@ -41,4 +41,12 @@ class Vec2 (var x:Double, var y:Double) {
 	def angleBetween(other:Vec2):Double
 	def <>(other:Vec2):Double
 	*/
+}
+
+object Vec2Tester {
+    def main(args:Array[String]):Unit = {
+        /** You can place code here to test out your implementation
+         *  of the Vec2 class made in the main section
+         */
+    }
 }
